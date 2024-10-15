@@ -1,4 +1,4 @@
-# BankFlow V2
+<p align="center">BankFlow V2</p>
 
 <br/>
 
