@@ -56,4 +56,4 @@ BankFlow v2 est un projet open source conçu pour révolutionner les transaction
 1. Clonez le repository :
    ```bash
    git clone https://github.com/your-repo/bankflow-v2.git
-   cd bankflow-v2/api-typescript
+   cd bankflow-v2/
