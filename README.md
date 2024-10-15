@@ -10,7 +10,7 @@
 <br/>
 <br/>
 
-> Projet débuté le **Mardi 15 Octobre 2024.
+> Projet débuté le Mardi 15 Octobre 2024.
 
 <br/>
 
