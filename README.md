@@ -1,6 +1,7 @@
-# BankFlow v2
+# BankFlow V2
+> Projet débuté le **Mardi 15 Octobre 2024.
 
-**BankFlow v2: Next-gen banking for streamlined, optimized transactions.**
+**BankFlow V2: Next-gen banking for streamlined, optimized transactions.**
 
 BankFlow v2 est un projet open source conçu pour révolutionner les transactions bancaires en passant d'une architecture traditionnelle à une solution moderne. Ce projet combine une **API REST** développée en **TypeScript** et une **librairie Java** qui permet une communication fluide entre l'API et des applications Java.
 
@@ -18,7 +19,7 @@ BankFlow v2 est un projet open source conçu pour révolutionner les transaction
 
 ## Présentation
 
-**BankFlow v2** est une plateforme conçue pour moderniser les systèmes bancaires en facilitant la gestion des transactions financières avec des outils performants et à jour. L'API en **TypeScript** permet de gérer les transactions, tandis que la librairie **Java** permet aux applications Java d'interagir directement avec l'API.
+**BankFlow V2** est une plateforme conçue pour moderniser les systèmes bancaires en facilitant la gestion des transactions financières avec des outils performants et à jour. L'API en **TypeScript** permet de gérer les transactions, tandis que la librairie **Java** permet aux applications Java d'interagir directement avec l'API.
 
 ## Fonctionnalités
 
