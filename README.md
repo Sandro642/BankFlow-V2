@@ -3,7 +3,7 @@
 <br/>
 
 <p align="center"><img src="https://img.shields.io/badge/Open-Source-BDFF00?style=for-the-badge" alt="badge open-soure">
-<img src="https://img.shields.io/badge/LICENSE-GNU_V3.0-18E104?style=for-the-badge" alt="badge license">
+<img src="https://img.shields.io/badge/LICENSE-GPL_V3.0-18E104?style=for-the-badge" alt="badge license">
 <img src="https://img.shields.io/badge/Java-TypeScript-00ED90?style=for-the-badge" alt="rust and typescript">
 <img src="https://img.shields.io/badge/API-LIB_(Protocol)-00EDE6?style=for-the-badge" alt="badge tauri and next js">
 
