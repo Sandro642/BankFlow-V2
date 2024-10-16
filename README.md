@@ -44,8 +44,8 @@ BankFlow v2 est un projet open source conçu pour révolutionner les transaction
 
 ## Prérequis
 
-- **Node.js** v23+ pour l'API TypeScript
-- **Java** 11+ pour la librairie Java
+- **Node.js** v22+ pour l'API TypeScript
+- **Java** 23+ pour la librairie Java
 - **Gradle** pour gérer la librairie (Protocol) Java
 - **Utilisation De Swagger** (ou un outil similaire) pour tester les endpoints API
 
