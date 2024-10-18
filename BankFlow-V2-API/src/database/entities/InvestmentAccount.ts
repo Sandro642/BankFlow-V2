@@ -4,7 +4,7 @@ import {Logger} from "../../utils/Logger";
 import {Random} from "../../utils/Random";
 
 @Entity({tableName: "client"})
-export class Client {
+export class CurrentAccount {
 
     @PrimaryKey({ type: 'number', columnType: 'int', unsigned: true, autoincrement: true })
     id!: number;
@@ -12,20 +12,14 @@ export class Client {
     @Property({type: "text", unique: true})
     uuid: string = Random.generateId();
 
-    @Property({type: "text", unique: true})
-    username!: string;
+    @Property({type: "text", unique: true, nullable: false})
+    owner!: string;
 
-    @Property({type: "text", unique: true})
-    firstname!: string;
+    @Property({type: "text", unique: true, nullable: true})
+    co_owner!: string;
 
-    @Property({type: "text", unique: true})
-    surname!: string;
-
-    @Property({type: "text", unique: true})
-    email!: string;
-
-    @Property({type: "text", unique: true})
-    password!: string;
+    @Property({type: "text", nullable: false})
+    investment!: string;
 
     @Property({type: "date"})
     createdAt!: Date;
@@ -37,24 +31,16 @@ export class Client {
         return this.uuid;
     }
 
-    getUsername() {
-        return this.username;
+    getOwner() {
+        return this.owner;
     }
 
-    getFirstName() {
-        return this.firstname;
+    getCoOwner() {
+        return this.co_owner;
     }
 
-    getSurname() {
-        return this.surname;
-    }
-
-    getEmail() {
-        return this.email;
-    }
-
-    getPassword() {
-        return this.password;
+    getInvestment() {
+        return this.investment;
     }
 
     getCreatedAt() {
@@ -69,28 +55,18 @@ export class Client {
         return this;
     }
 
-    setUsername(username: string) {
-        this.username = username;
+    setOwner(owner: string) {
+        this.owner = owner;
         return this;
     }
 
-    setFirstName(firstname: string) {
-        this.firstname = firstname;
+    setCoOwner(co_owner: string) {
+        this.co_owner = co_owner;
         return this;
     }
 
-    setSurname(surname: string) {
-        this.surname = surname;
-        return this;
-    }
-
-    setEmail(email: string) {
-        this.email = email;
-        return this;
-    }
-
-    setPassword(password: string) {
-        this.password = password;
+    setInvestment(investment: string) {
+        this.investment = investment;
         return this;
     }
 
