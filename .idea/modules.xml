@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BankFlow-V2.iml" filepath="$PROJECT_DIR$/.idea/BankFlow-V2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BankFlow-V2-Protocol.iml" filepath="$PROJECT_DIR$/BankFlow-V2-Protocol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BankFlow-V2-Protocol.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BankFlow-V2-Protocol.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BankFlow-V2-Protocol.test.iml" filepath="$PROJECT_DIR$/.idea/modules/BankFlow-V2-Protocol.test.iml" />
     </modules>
   </component>
 </project>
