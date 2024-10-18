@@ -3,8 +3,8 @@ import {EntityManager} from "@mikro-orm/core";
 import {Logger} from "../../utils/Logger";
 import {Random} from "../../utils/Random";
 
-@Entity({tableName: "client"})
-export class CurrentAccount {
+@Entity({tableName: "InvestmentAccount"})
+export class InvestmentAccount {
 
     @PrimaryKey({ type: 'number', columnType: 'int', unsigned: true, autoincrement: true })
     id!: number;

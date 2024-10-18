@@ -3,12 +3,14 @@
 import { FastifyInstance } from "fastify";
 import fastifyMikroOrm from "fastify-mikro-orm";
 import { Logger } from "../utils/Logger";
+import {CurrentAccount} from "./entities/CurrentAccount";
+import {InvestmentAccount} from "./entities/InvestmentAccount";
 
 export default async function setupDatabase(app: FastifyInstance) {
     try {
         if (!app.hasDecorator('mikroORM')) {
             await app.register(fastifyMikroOrm, {
-                entities: [], // Add your entity paths here
+                entities: [CurrentAccount, InvestmentAccount], // Add your entity paths here
                 dbName: 'sandro642_secureedumail',
                 type: 'mongo', // Specify the database type as 'mongo'
                 clientUrl: 'mongodb+srv://sandro642:<password>@cluster0.mongodb.net/sandro642_secureedumail?retryWrites=true&w=majority',

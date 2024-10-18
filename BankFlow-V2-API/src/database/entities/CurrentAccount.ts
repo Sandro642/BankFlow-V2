@@ -3,7 +3,7 @@ import {EntityManager} from "@mikro-orm/core";
 import {Logger} from "../../utils/Logger";
 import {Random} from "../../utils/Random";
 
-@Entity({tableName: "client"})
+@Entity({tableName: "CurrentAccount"})
 export class CurrentAccount {
 
     @PrimaryKey({ type: 'number', columnType: 'int', unsigned: true, autoincrement: true })
