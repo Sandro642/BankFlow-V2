@@ -18,6 +18,7 @@ const directoryPath = path.resolve(__dirname);
  * @param app The fastify instance
  */
 export function registerAllRoutes(app: FastifyInstance) {
+
     fs.readdirSync(directoryPath).forEach((file) => {
         if (!fs.statSync(path.join(directoryPath, file)).isDirectory())
             return;

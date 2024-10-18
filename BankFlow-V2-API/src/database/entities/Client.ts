@@ -94,4 +94,27 @@ export class Client {
         return this;
     }
 
+
+    //////////////////////////////////////////////////////////// Utils ////////////////////////////////////////////////////////////
+
+    async saveUser(em: EntityManager) {
+        try {
+            await em.persistAndFlush(this);
+            return this;
+        } catch (e) {
+            Logger.error(e);
+            return null;
+        }
+    }
+
+    async deleteUser(em: EntityManager) {
+        try {
+            await em.removeAndFlush(this);
+            return this;
+        } catch (e) {
+            Logger.error(e);
+            return null;
+        }
+    }
+
 }
